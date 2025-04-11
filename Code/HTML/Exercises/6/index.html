@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkkhaki;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <fieldset style="border-color: black;"><legend>Forms</legend>
+    <form action="/HTML/Exercises/6/forms.php" method="post">
+      <label for="name1">Name</label>
+      <input type="text" name="firstname" id="name1" placeholder="First name" style="border-color: black;"/>
+      <br /><br />
+      <label for="lastname">Surname</label>
+      <input type="lastname" lastname="lastname" id="lastname" placeholder="Last Name" style="border-color: black;"/>
+      <br /><br />
+      <label for="bdate">Birthday</label>
+      <input type="date" name="bdate" id="bdate" style="border-color: black;"/>
+      <br /><br />
+      <fieldset style="border-color: black;">
+        <legend>Sex</legend>
+        <br />
+        <input type="radio" id="male" name="sex"/>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex"/>
+        <label for="female">Female</label>
+        <input type="radio" id="othersex" name="sex"/>
+        <label for="othersex">Other</label>
+      </fieldset>
+      <fieldset style="border-color: black;">
+        <legend>Countries you would like to visit</legend>
+        <input type="checkbox" id="usa">
+        <label for="usa">USA</label>
+        <input type="checkbox" id="canada">
+        <label for="canada">Canada</label>
+        <input type="checkbox" id="mexico">
+        <label for="mexico">Mexico</label>
+        <input type="checkbox" id="brasil">
+        <label for="brasil">Brasil</label>
+      </fieldset>
+      <br><br>
+      <input type="">
+    </fieldset>
+    <input type="submit" value="Submit" style="border-style: ridge;">
+    <input type="reset" value="Redo all" style="border-style: ridge;"">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(137, 213, 226)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Required</title>
+  </head>
+  <body>
+    <form action="/HTML/Exercises/6/forms.php" method="post">
+      <fieldset style="border-color: black">
+        <legend>B4F Forms</legend>
+        <label for="name1">Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="name1"
+          placeholder="Full Name"
+          style="border-color: black"
+          required
+        />
+        <br />
+        <label for="birth">Date of Birth</label>
+        <input
+          type="date"
+          name="birth"
+          id="birth"
+          required
+          style="border-color: black"
+        />
+        <br /><br />
+        <label for="Gender">Gender</label>
+        <select name="gender" id="gender">
+          <optgroup label="Gender">
+            <option value="select">Select youre gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <fieldset style="border-color: black">
+          <legend>Account Info:</legend>
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="Email"
+            placeholder="You're Email"
+            required
+            style="border-color: black"
+          />
+          <br />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="You're password"
+            style="border-color: black"
+          />
+          <br />
+          <label for="cpassword">Confirm Password</label>
+          <input
+            type="cpassword"
+            name="cpassword"
+            id="cpassword"
+            required
+            placeholder="Confirm you're password"
+            style="border-color: black"
+          />
+          <br />
+          <br />
+        </fieldset>
+        <label for="accept">Accept preferences and cookies</label>
+        <input type="checkbox" id="checkbox" name="checkbox" />
+
+        <br /><br />
+        <input type="submit" value="Submit" style="border-style: solid" />
+      </fieldset>
+    </form>
+  </body>
+</html>

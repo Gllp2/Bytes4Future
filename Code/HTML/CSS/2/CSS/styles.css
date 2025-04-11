@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Great+Vibes&display=swap');
+body {
+    background-color: rgb(141, 223, 243);
+}
+
+.caketitle {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+  }
+
+.cake {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+howtodo {
+    font-size: 40px;
+    font-family: "Agbalumo", system-ui;
+    font-style: normal;
+    font-weight: 400;
+}
+
+steps {
+    font-family: "Great Vibes", normal;
+
+}
+
+stepsbackground {
+    background-color: cadetblue;
+}

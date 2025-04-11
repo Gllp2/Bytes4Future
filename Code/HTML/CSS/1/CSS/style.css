@@ -1,0 +1,97 @@
+/*.text is for a class
+    text is for an element
+    #is for an id
+*/
+body {
+  background-color: bisque;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(173, 170, 170)
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(173, 170, 170);
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+}
+
+#about:hover:not(.abouthover) {
+    background-color:rgb(173, 170, 170)
+}
+
+.active {
+  background-color:rgb(255, 255, 255)
+}
+
+.abouthover {
+    background-color:rgb(173, 170, 170) ;
+}
+
+#about {
+    float: right;
+}
+
+.textone {
+  color: rgb(115, 115, 115);
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.titletwo {
+  color: blueviolet;
+  text-align: center;
+}
+
+.pone {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: blue;
+  text-align: center;
+}
+
+.ptwo {
+  text-align: center;
+}
+
+#buttonone {
+  color: blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(183, 186, 185);
+  border: 0cap;
+  
+}
+
+header:hover:not(#buttonone) {
+  background-color: rgb(173, 170, 170);
+}
+
+ul > li {
+  background-color: rgb(211, 224, 220);
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

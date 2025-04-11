@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkkhaki">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="/HTML/Exercises/6/forms.php" method="post">
+      <fieldset style="border-color: black">
+        <legend>B4F Forms</legend>
+        <label for="name1">Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="name1"
+          placeholder="First name"
+          style="border-color: black"
+        />
+        <br /><br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          lastname="email"
+          id="email"
+          placeholder="You're email"
+          style="border-color: black"
+        />
+        <br /><br />
+
+        <legend>Sex</legend>
+        <br />
+        <input type="radio" id="male" name="sex" />
+        <label for="male">Male</label>
+        <br /><br />
+        <input type="radio" id="female" name="sex" />
+        <label for="female">Female</label>
+        <br /><br />
+        <label for="date">Current Date</label>
+        <input type="date" id="date" name="date" style="border-color: black" />
+        <br /><br />
+        <label for="class">Class:</label>
+        <select name="cars" id="cars">
+          <optgroup label="Class">
+            <option value="select">Select your class</option>
+            <option value="volvo">Fullstack Dev</option>
+            <option value="saab">Data Analyst</option>
+          </optgroup>
+        </select>
+        <br />
+        <label for="message">Message</label>
+        <input
+          type="text"
+          name="message"
+          id="message"
+          style="width: 200px; height: 55px; border-color: black"
+          placeholder="Review Our Website!"
+        />
+        <br /><br />
+
+        <input type="reset" value="Redo all" style="border-style: ridge;"">
+        <input type="submit" value="Submit" style="border-style: ridge" />
+      </fieldset>
+    </form>
+  </body>
+</html>
